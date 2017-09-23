@@ -9,5 +9,6 @@ index.add_objects(batch)
 
 index.set_settings({"customRanking":["desc(followers)"]})
 
-index.set_settings({"searchableAttributes": ["lastname", "firstname", "company",
-                                         "email", "city", "address"]})
+index.set_settings({"searchableAttributes": ["lastname", "firstname"]})
+
+#"company","email", "city", "address"]})
